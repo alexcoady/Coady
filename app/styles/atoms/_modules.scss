@@ -1,5 +1,6 @@
 .module {
 	@include clearfix;
+	margin-bottom: $spacing;
 }
 
 .module .image {

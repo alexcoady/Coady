@@ -4,6 +4,7 @@
 
 .twitter__section {
 	@include column(6);
+	margin-bottom: $spacing;
 }
 
 .twitter__stats .stat-wrap {
@@ -19,10 +20,6 @@
 
 	.twitter__section {
 		@include column(12);
-	}
-
-	.twitter__chart {
-		margin-bottom: $spacing;
 	}
 
 	.twitter__stats .stat-wrap {
