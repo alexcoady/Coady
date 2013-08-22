@@ -4,11 +4,7 @@
 
 .client__item {
 	@include inline-block;
-	margin: 0 $spacing;
-
-	@media screen and (max-width: 670px) {
-		margin-bottom: $spacing;
-	}
+	margin: 0 $spacing $spacing;
 }
 
 .client__item .logo {
