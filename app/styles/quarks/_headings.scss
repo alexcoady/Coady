@@ -1,9 +1,14 @@
 .heading {
 	font-size: 2em;
 	margin-bottom: $spacing;
+	line-height: 1.3em;
 }
 
 .heading--sub {
 	font-size: 1.4em;
 	// margin-bottom: $spacing;
+}
+
+.heading--warning {
+	color: red;
 }

@@ -1,3 +1,13 @@
+.client-wrap {
+	text-align: center;
+}
+
 .client__item {
-	@include column(2);
+	@include inline-block;
+	margin: 0 $spacing ;
+}
+
+.client__item .logo {
+	max-height: 35px;
+	width: auto;
 }
