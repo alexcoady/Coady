@@ -8,3 +8,10 @@
 .heading-group .heading {
 	font-size: 1.6em;
 }
+
+@media screen and (max-width: 670px) {
+	.heading-group {
+		@include column(12);
+		@include pull(0);
+	}
+}
