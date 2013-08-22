@@ -6,9 +6,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Alex Coady - JavaScript developer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
+
+        <script type="text/javascript" src="//use.typekit.net/jyk4ocd.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHhHudUzz-5rXcTf4g1DWejy18vGBpNeM&sensor=true"></script>
+
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- build:js scripts/vendor/modernizr.js -->
@@ -16,31 +22,286 @@
         <!-- endbuild -->
     </head>
     <body>
-        <div class="container">
-            <div class="hero-unit">
-                <h1>'Allo, 'Allo!</h1>
-                <p>You now have</p>
-                <ul>
-                    <li>HTML5 Boilerplate</li>
-                    <li>Twitter Bootstrap</li>
-                    <li>RequireJS</li>
-                </ul>
-                <p>installed.</p>
-                <h3>Enjoy coding! - Yeoman</h3>
+        
+        <div class="site-row site-row--alternate site-row--header">
+            <div class="grid-wrap">
+                <div class="container">
+                    
+                    <a href="" class="link link--logo">
+                        <img src="/images/coady.svg" width="" height="" alt="Coady" />
+                    </a>
+
+                    <nav class="nav nav--main">
+                        <h2 class="visibly-hidden">Main navigation</h2>
+                        <a href="#" class="nav__item">About</a>
+                        <a href="#" class="nav__item">Work</a>
+                        <a href="#" class="nav__item">Contact</a>
+                        <a href="#" class="nav__item">Blog</a>
+                    </nav>
+
+                </div>
             </div>
         </div>
 
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+        <div class="site-row site-row--intro">
+            <div class="grid-wrap">
+                <div class="container">
+                    
+                    <h1 class="heading">Alex Coady</h1>
+                    <h2 class="heading heading--sub">JavaScript developer in London, UK.</h2>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+                    <nav class="nav nav--social">
+                        <h2 class="visibly-hidden">Social links</h2>
+                        <a href="#" class="nav__item"><i class="icon icon-envelope-alt"></i><span class="visibly-hidden">Email</span></a>
+                        <a href="#" class="nav__item"><i class="icon icon-twitter"></i><span class="visibly-hidden">Twitter</span></a>
+                        <a href="#" class="nav__item"><i class="icon icon-github"></i><span class="visibly-hidden">GitHub</span></a>
+                        <a href="#" class="nav__item"><i class="icon icon-linkedin"></i><span class="visibly-hidden">LinkedIn</span></a>
+                        <a href="#" class="nav__item"><i class="icon icon-stackexchange"></i><span class="visibly-hidden">Stackoveflow</span></a>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="site-row site-row--alternate site-row--clients">
+            <div class="grid-wrap">
+                <div class="container">
+                    <div class="row">
+                        <span class="client__item">Client</span>
+                        <span class="client__item">Client</span>
+                        <span class="client__item">Client</span>
+                        <span class="client__item">Client</span>
+                        <span class="client__item">Client</span>
+                        <span class="client__item">Client</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-row site-row--skills">
+            <div class="grid-wrap">
+
+                <div class="skills__item skills__services">
+                    <h2 class="heading">How I can help</h2>
+
+                    <ul class="list list--services">
+                        <li class="list__item">
+                            <h4 class="heading">Front-end development</h4>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </li>
+                        <li class="list__item">
+                            <h4 class="heading">Front-end development</h4>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </li>
+                        <li class="list__item">
+                            <h4 class="heading">Front-end development</h4>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </li>
+                    </ul>
+
+                </div>
+                
+                <div class="skills__item skills__experience">
+                    <h2 class="heading">Agency experience</h2>
+
+                    <ul class="list list--experience">
+                        <li class="list__item">
+                            <h4 class="heading">Zone</h4>
+                            <p class="description">JavaScript developer</p>
+                        </li>
+                        <li class="list__item">
+                            <h4 class="heading">Zone</h4>
+                            <p class="description">JavaScript developer</p>
+                        </li>
+                        <li class="list__item">
+                            <h4 class="heading">Zone</h4>
+                            <p class="description">JavaScript developer</p>
+                        </li>
+                    </ul>
+
+                </div>
+                
+
+            </div>
+        </div>
+
+
+        <div class="site-row site-row--alternate site-row--twitter">
+            <div class="grid-wrap">
+                
+                <hgroup class="heading-group">
+                    <h2 class="heading">@coadycodes</h2>
+                    <p class="description">Rather than show you a couple of potentially-naff recent Tweets of mine, I’d rather show you some data about my Tweeting habbits.</p>
+                </hgroup>
+
+                <div class="twitter__section twitter__chart">
+
+                    <div class="chart chart--tweets"></div>
+
+                </div>
+
+                <div class="twitter__section twitter__stats">
+                    <div class="stat-wrap">
+
+                        <div class="stat__item">
+                            <span class="value">454</span>
+                            <span class="title">Tweets</span>
+                        </div>
+                        <div class="stat__item">
+                            <span class="value">454</span>
+                            <span class="title">Tweets</span>
+                        </div>
+                        <div class="stat__item">
+                            <span class="value">454</span>
+                            <span class="title">Tweets</span>
+                        </div>
+                        <div class="stat__item">
+                            <span class="value">454</span>
+                            <span class="title">Tweets</span>
+                        </div>
+                        <div class="stat__item">
+                            <span class="value">454</span>
+                            <span class="title">Tweets</span>
+                        </div>
+                        <div class="stat__item">
+                            <span class="value">454</span>
+                            <span class="title">Tweets</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="site-row site-row--projects">
+            <div class="grid-wrap">
+                
+                <hgroup class="heading-group">
+                    <h2 class="heading">Recent projects</h2>
+                    <p class="description">A few notable projects and experiments I’ve been working on recently. For more, check my GitHub.</p>
+                </hgroup>
+
+                <div class="container">
+                    <div class="row">
+
+                        <article class="module module--project">
+
+                            <div class="image">
+                                <img src="http://placehold.it/220x120" />
+                            </div>
+
+                            <h3 class="heading">Scouts</h3>
+
+                            <div class="entry-content">
+                                <p>Lorum ipsum dolor sit amet etc dolor sit amatter. Lorum ipsum dolor sit amet etc dolor sit amatter.</p>
+                            </div>
+
+                            <a href="#" class="link link--visit">Visit site <i class="icon icon-double-angle-right"></i></a>
+
+                        </article>
+
+                        <article class="module module--project">
+
+                            <div class="image">
+                                <img src="http://placehold.it/220x120" />
+                            </div>
+
+                            <h3 class="heading">Scouts</h3>
+
+                            <div class="entry-content">
+                                <p>Lorum ipsum dolor sit amet etc dolor sit amatter. Lorum ipsum dolor sit amet etc dolor sit amatter.</p>
+                            </div>
+
+                            <a href="#" class="link link--visit">Visit site <i class="icon icon-double-angle-right"></i></a>
+
+                        </article>
+
+                        <article class="module module--project">
+
+                            <div class="image">
+                                <img src="http://placehold.it/220x120" />
+                            </div>
+
+                            <h3 class="heading">Scouts</h3>
+
+                            <div class="entry-content">
+                                <p>Lorum ipsum dolor sit amet etc dolor sit amatter. Lorum ipsum dolor sit amet etc dolor sit amatter.</p>
+                            </div>
+
+                            <a href="#" class="link link--visit">Visit site <i class="icon icon-double-angle-right"></i></a>
+
+                        </article>
+
+                        <article class="module module--project">
+
+                            <div class="image">
+                                <img src="http://placehold.it/220x120" />
+                            </div>
+
+                            <h3 class="heading">Scouts</h3>
+
+                            <div class="entry-content">
+                                <p>Lorum ipsum dolor sit amet etc dolor sit amatter. Lorum ipsum dolor sit amet etc dolor sit amatter.</p>
+                            </div>
+
+                            <a href="#" class="link link--visit">Visit site <i class="icon icon-double-angle-right"></i></a>
+
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="site-row site-row--alternate site-row--contact">
+            <div class="grid-wrap">
+
+                <hgroup class="heading-group">
+                    <h2 class="heading">Get in touch</h2>
+                    <p class="description">If you want to hire me, collaborate on a project or argue about which framework is the best, get in touch in one of these ways.</p>
+                </hgroup>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="module module--contact">
+                            <form>
+                                <div class="input-wrap">
+                                    <textarea class="input input--message" name="message" placeholder="Message"></textarea>
+                                </div>
+                                <div class="input-wrap">
+                                    <input class="input input--name" type="text" name="name" placeholder="Name" />
+                                </div>
+                                <div class="input-wrap">
+                                    <input class="input input--email" type="email" name="email" placeholder="Email" />
+                                </div>
+
+                                <button class="input--submit" type="submit">Send <i class="icon icon-double-angle-right"></i></button>
+                            </form>
+                        </div>
+
+                        <div class="module module--contact">
+                            <div class="map" id="map--location"></div>
+                        </div>
+
+                        <div class="module module--contact">
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
 
         <!-- build:js scripts/main.js -->
         <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>

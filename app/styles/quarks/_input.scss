@@ -1,0 +1,29 @@
+input,
+textarea {
+	@include box-sizing(border-box);
+	border: 0 none;
+	padding: $spacing / 2;
+	margin: 0;
+	width: 100%;
+	display: block;
+	font: inherit;
+	font-weight: 700;
+	font-size: 1em;
+	line-height: normal;
+	background-color: $color-grey-pale;
+	color: $color-grey-dark;
+}
+
+textarea {
+	height: 120px;
+}
+
+button {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background: none;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+}

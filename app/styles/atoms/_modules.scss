@@ -1,0 +1,28 @@
+.module {
+	@include clearfix;
+	background: rgba($color-grey-dark, 0.1);
+}
+
+.module .image {
+	margin-bottom: $spacing / 2;
+}
+
+.module .image img {
+	width: 100%;
+	height: auto;
+}
+
+.module .heading {
+	margin: 0 ($spacing / 2) ($spacing / 2);
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.module .entry-content {
+	margin: 0 ($spacing / 2) ($spacing / 2);
+}
+
+.module .link {
+	display: block;
+	margin: 0 ($spacing / 2) ($spacing / 2);
+}

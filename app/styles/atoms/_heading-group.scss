@@ -1,0 +1,10 @@
+.heading-group {
+	@include column(6);
+	@include pull(6);
+	
+	margin-bottom: $spacing;
+}
+
+.heading-group .heading {
+	font-size: 1.6em;
+}

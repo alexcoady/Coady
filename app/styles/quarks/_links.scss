@@ -1,0 +1,12 @@
+a {
+	text-decoration: none;
+	color: inherit;
+
+	@include transition(color 350ms);
+}
+
+a:hover,
+a:active {
+	text-decoration: underline;
+	color: $color-blue-sky;
+}

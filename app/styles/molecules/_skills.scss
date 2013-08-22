@@ -1,0 +1,24 @@
+.site-row--skills {
+
+}
+
+.skills__item {
+	@include column(6);
+}
+
+.skills__item > .heading {
+	font-size: 1.6em;
+}
+
+.list {
+	
+}
+
+.list .list__item {
+	margin-bottom: $spacing;
+}
+
+.list .list__item .heading {
+	font-size: 1.2em;
+	margin-bottom: $spacing / 4;
+}

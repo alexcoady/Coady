@@ -1,0 +1,20 @@
+.site-row--contact {
+
+}
+
+.module--contact {
+	@include column(4);
+}
+
+.module--contact .input-wrap {
+	margin-bottom: $spacing / 2;
+}
+
+.module--contact .input--submit {
+	float: right;
+}
+
+.map {
+
+	height: 216px;
+}

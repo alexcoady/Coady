@@ -1,0 +1,38 @@
+/*
+
+<div class="site-row">
+	<div class="grid-wrap">
+		<div class="container"></div>
+	</div>
+</div>
+
+*/
+
+.site-row {
+	width: 100%;
+	padding: ($spacing * 2) 0;
+}
+
+.site-row .grid-wrap {
+	@include clearfix;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.site-row .grid-wrap > .container {
+	@include column(12);
+}
+
+.site-row .grid-wrap > .container > .row {
+	@include row(12);
+}
+
+.site-row--light {
+	color: $color-grey-dark;
+}
+
+.site-row--alternate {
+	background: $color-grey-dark;
+	color: $color-grey-pale;
+}

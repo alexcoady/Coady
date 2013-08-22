@@ -1,0 +1,26 @@
+.nav {
+	display: block;
+}
+
+.nav--main {
+	text-align: center;
+}
+
+.nav--main .nav__item {
+	@include inline-block;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin: 0 ($spacing / 2);
+}
+
+
+
+
+.nav--social .nav__item {
+	font-size: 2em;
+	margin-right: $spacing / 2;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
