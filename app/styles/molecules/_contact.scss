@@ -17,4 +17,32 @@
 .map {
 
 	height: 216px;
+	margin-bottom: $spacing / 2;
 }
+
+.link.link--drop-in {
+	display: block;
+	float: right;
+	margin: 0;
+}
+
+.nav--contact {}
+
+.nav--contact .nav__item {
+	display: block;
+	margin-bottom: $spacing;
+
+	font-size: 1.2em;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.nav--contact .nav__item .icon {
+	font-size: 1.2em;
+	margin-right: $spacing / 2;
+
+
+}
+

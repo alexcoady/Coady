@@ -18,7 +18,7 @@ require(['app', 'jquery', 'bootstrap'], function (app, $) {
         
         var mapOptions = {
           center: new google.maps.LatLng(51.495373,-0.189638),
-          zoom: 14,
+          zoom: 13,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
           disableDefaultUI: true
         };

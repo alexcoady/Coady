@@ -4,4 +4,5 @@
 
 .module--project {
 	@include column(3);
+	background: rgba($color-grey-dark, 0.1);
 }

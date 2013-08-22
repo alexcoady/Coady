@@ -26,4 +26,11 @@ button {
 	color: inherit;
 	font: inherit;
 	cursor: pointer;
+
+	@include transition(color 350ms);
+
+	&:hover {
+		color: $color-blue-sky;
+		text-decoration: underline;
+	}
 }
