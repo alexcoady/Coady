@@ -1,13 +1,13 @@
 .stat__item {
-	font-weight: 300;
+	// font-weight: 300;
 }
 
 .stat__item .value {
 	font-size: 3em;
-	
+	font-weight: 100;
 	display: block;
 }
 
-.stat__item .value {
+.stat__item .title {
 	display: block;
 }
