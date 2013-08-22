@@ -25,3 +25,10 @@
 	display: block;
 	margin: 0 ($spacing / 2) ($spacing / 2);
 }
+
+@media screen and (max-width: 670px) {
+
+	.module {
+		margin-bottom: $spacing;
+	}
+}

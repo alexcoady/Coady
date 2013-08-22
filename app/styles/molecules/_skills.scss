@@ -4,6 +4,11 @@
 
 .skills__item {
 	@include column(6);
+
+	@media screen and (max-width: 670px) {
+
+		@include column(12);
+	}
 }
 
 .skills__item > .heading {

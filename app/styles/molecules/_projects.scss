@@ -5,4 +5,14 @@
 .module--project {
 	@include column(3);
 	background: rgba($color-grey-dark, 0.1);
+
+	@media screen and (max-width: 670px) {
+
+		@include column(6);
+	}
+
+	@media screen and (max-width: 470px) {
+
+		@include column(12);
+	}
 }

@@ -14,3 +14,22 @@
 	@include column(2, 6);
 	margin-bottom: $spacing;
 }
+
+@media screen and (max-width: 670px) {
+
+	.twitter__section {
+		@include column(12);
+	}
+
+	.twitter__chart {
+		margin-bottom: $spacing;
+	}
+
+	.twitter__stats .stat-wrap {
+		@include row(12);
+	}
+
+	.twitter__stats .stat-wrap .stat__item {
+		@include column(4, 12);
+	}
+}

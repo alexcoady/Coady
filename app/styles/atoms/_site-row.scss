@@ -18,6 +18,11 @@
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
+
+	@media screen and (max-width: 670px) {
+		width: auto;
+		margin: 0 $spacing;
+	}
 }
 
 .site-row .grid-wrap > .container {
